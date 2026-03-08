@@ -1,369 +1,432 @@
-完成下面继续把这个大纲 **扩展成完整文本版本（1500句全部写出来）**，并且整理成 **可直接练习的结构**，例如：
+# 《真实外企银行算法工程师英语手册》优化大纲
 
-* 会议英语
-* 面试回答模板
-* 技术表达词库
+## 一、手册定位
 
-这样会更像 **硅谷/外企真实沟通英语手册**。。下面给出 **《1500句真实外企银行算法工程师英语》完整结构大纲**。 
-设计目标：覆盖 **外企银行技术岗位日常 95% 沟通场景**（会议、项目、DevOps、AI、合规、面试等）。
-技术背景按你提供的栈组织：**Python / OCR / LLM / GCP / BigQuery / GKE / CI-CD / Terraform / Ansible / Jenkins**。
+本手册面向在外企银行、金融科技部门、数据平台团队、AI 平台团队工作的算法工程师、数据工程师、MLOps 工程师，以及准备进入相关岗位的求职者。
 
-涉及平台与工具：
+内容覆盖以下高频技术与沟通场景：
 
-* Google BigQuery
-* Google Compute Engine
-* Google Kubernetes Engine
-* Terraform
-* Ansible
-* Jenkins
+* Onboarding 与自我介绍
+* HR / 技术 / 系统设计 / 行为面试
+* Daily standup 与敏捷协作
+* 架构评审与技术会议
+* Data Engineering / BigQuery
+* GCP / GCE / GKE 云平台沟通
+* DevOps / CI-CD / Terraform / Ansible / Jenkins
+* Python 数据处理
+* OCR 项目沟通
+* LLM / RAG / Embeddings / AI 应用
+* Incident Response / 故障排查
+* 跨团队协作
+* 银行技术合规
+* 职场社交
+* 项目汇报与复盘
 
-应用环境参考大型金融机构技术部门，例如
-HSBC。
-
----
-
-# 《1500句真实外企银行算法工程师英语》结构
-
-共 **15个模块**
-
-总计 **1500句**
+目标是覆盖外企银行技术岗位日常 95% 的真实沟通场景，并形成可直接练习、替换、复述、背诵的英语表达库。
 
 ---
 
-# 1 自我介绍 / Onboarding（100句）
+## 二、使用原则
 
-场景
+本手册不是普通英语教材，而是一份围绕真实工作流设计的“岗位表达手册”。
 
-* 新员工介绍
-* 项目 kickoff
-* 跨团队介绍
+每个模块统一包含四层内容：
 
-主题
+* 场景说明：说明本模块主要解决哪些会议、项目或协作场景
+* 高频表达：提供可以直接上口的标准句型
+* 技术词库：沉淀常见术语、动词、名词搭配
+* 句子训练：按模块提供完整英文句子，便于跟读、替换和口头演练
+
+建议使用方式：
+
+* 第一步：先通读模块场景和关键词，建立语境
+* 第二步：精读高频表达，替换岗位、项目、工具名称
+* 第三步：大声跟读 20 至 30 句，训练口腔记忆
+* 第四步：将句子改写成自己的项目经历
+* 第五步：在会议、面试、汇报前做针对性复习
+
+---
+
+## 三、总结构设计
+
+全书共 15 个模块，合计 1500 句。
+
+说明：原草案的模块句数相加为 1520 句。为保证“总计 1500 句”与实际内容一致，现将数据平台、云平台、DevOps、职场社交四个模块的配额重新平衡，修正后总量为 1500 句。
+
+### 句数分配总表
+
+| 模块 | 主题 | 句数 |
+| --- | --- | --- |
+| 1 | 自我介绍 / Onboarding | 100 |
+| 2 | 面试场景 / Interview | 150 |
+| 3 | Daily Standup | 100 |
+| 4 | 技术会议 / Architecture Discussion | 150 |
+| 5 | 数据平台 / Data Engineering | 110 |
+| 6 | 云平台 / Cloud Infrastructure | 110 |
+| 7 | DevOps / CI-CD | 110 |
+| 8 | Python / Data Processing | 100 |
+| 9 | OCR 项目 | 100 |
+| 10 | LLM / AI 应用 | 100 |
+| 11 | 故障排查 / Incident Response | 100 |
+| 12 | 跨团队沟通 | 80 |
+| 13 | 银行技术合规 / Compliance | 100 |
+| 14 | 职场社交 / Small Talk | 90 |
+| 15 | 项目总结 / 汇报 | 100 |
+| 总计 |  | 1500 |
+
+---
+
+## 四、模块统一展开格式
+
+每个模块按照以下结构展开：
+
+### 1. 模块目标
+
+说明学习者在该模块中要掌握的沟通能力。
+
+### 2. 高频场景
+
+列出真实工作中出现的典型使用场景。
+
+### 3. 核心词汇与搭配
+
+沉淀本模块必须掌握的术语与常见表达组合。
+
+### 4. 高频句型模板
+
+先给出可复用模板，再给出完整句子。
+
+### 5. 句子训练区
+
+按照固定句数写出完整英文句子，便于：
+
+* 逐句跟读
+* 逐句替换关键词
+* 情景角色扮演
+* 面试口语复述
+* 会议表达预演
+
+### 6. 快速练习任务
+
+给出 2 到 3 个可执行练习动作，例如：
+
+* 用自己的项目替换公司、系统、模型名
+* 把陈述句改成会议汇报句
+* 把技术表达改成管理层可理解版本
+
+---
+
+## 五、模块详细蓝图
+
+## 1. 自我介绍 / Onboarding（100句）
+
+### 模块目标
+
+让学习者能够在新员工介绍、项目 kickoff、跨团队协作、客户会议开场中清楚介绍自己。
+
+### 高频场景
+
+* 新员工入职介绍
+* 团队例会自我介绍
+* 项目 kickoff 开场
+* 向产品、风险、数据团队介绍职责
+
+### 核心内容
 
 * 个人背景
 * 技术栈
-* 工作职责
+* 职责范围
+* 当前项目
+* 工作风格与协作偏好
 
-示例
+### 训练输出
 
-* I work as an algorithm engineer in the data technology team.
-* My main focus is machine learning and document OCR solutions.
-* I’m responsible for building data pipelines and model services.
+* 标准版自我介绍
+* 面试版背景介绍
+* 跨团队版职责介绍
+* 管理层版简短介绍
 
 ---
 
-# 2 面试场景（Interview）（150句）
+## 2. 面试场景 / Interview（150句）
 
-子模块
+### 模块目标
 
-### HR面试
+让学习者可以覆盖外企银行常见面试流程，并输出逻辑清楚、技术准确、行为稳定的回答。
+
+### 子模块建议
+
+* HR 面试：30 句
+* 技术面试：50 句
+* 系统设计面试：40 句
+* 行为面试：30 句
+
+### 核心内容
 
 * career background
 * motivation
-
-例句
-
-* Why are you interested in this role?
-* What motivated you to move into machine learning?
-
----
-
-### 技术面试
-
-主题
-
-* machine learning
-* algorithms
-* data engineering
-
-例句
-
-* How do you evaluate model performance?
-* What metrics do you usually use?
+* ML / OCR / LLM 能力
+* 数据工程经验
+* 架构设计能力
+* 冲突处理与推动落地
 
 ---
 
-### 系统设计面试
+## 3. Daily Standup（100句）
 
-主题
+### 模块目标
 
-* distributed systems
-* ML systems
+让学习者能在敏捷开发场景中快速同步昨天进展、今天计划、风险与 blocker。
 
-例句
+### 核心内容
 
-* The system consists of a data pipeline and a model service.
-* The inference service runs on Kubernetes.
+* yesterday / today / blocker
+* sprint / backlog / dependency
+* timeline / ETA / support needed
 
----
+### 训练输出
 
-### 行为面试
-
-例句
-
-* Tell me about a challenging project.
-* How did you resolve a conflict in the team?
+* 标准 standup 表达
+* 延期说明
+* 风险升级表达
 
 ---
 
-# 3 Daily Standup（100句）
+## 4. 技术会议 / Architecture Discussion（150句）
 
-敏捷开发日常沟通。
+### 模块目标
 
-表达
+让学习者能参与架构评审、方案比较、技术争论、决策总结。
 
-* Yesterday I worked on the OCR pipeline.
-* Today I will focus on improving inference latency.
-* There are no blockers for now.
+### 子模块建议
 
-关键词
+* 问题定义：30 句
+* 方案比较：40 句
+* 风险讨论：40 句
+* 决策与行动项：40 句
 
-* sprint
-* backlog
-* blockers
-
----
-
-# 4 技术会议 / Architecture Discussion（150句）
-
-场景
-
-* 架构评审
-* 技术方案讨论
-
-主题
+### 核心内容
 
 * scalability
 * reliability
 * latency
-
-例句
-
-* The current architecture might not scale well.
-* We should consider a microservice approach.
+* observability
+* maintainability
+* trade-off
 
 ---
 
-# 5 数据平台 / Data Engineering（120句）
+## 5. 数据平台 / Data Engineering（110句）
 
-涉及
-Google BigQuery
+### 模块目标
 
-主题
+让学习者能够围绕 BigQuery、ETL、数据质量、数据依赖、查询优化进行沟通。
 
-* data pipeline
+### 核心内容
+
+* data source
+* schema
+* partition
+* data freshness
+* ETL orchestration
 * query optimization
-* ETL
-
-例句
-
-* The dataset is stored in BigQuery.
-* We need to optimize the query performance.
 
 ---
 
-# 6 云平台 / Cloud Infrastructure（120句）
+## 6. 云平台 / Cloud Infrastructure（110句）
 
-涉及
+### 模块目标
 
-Google Compute Engine
-Google Kubernetes Engine
+让学习者能描述 GCE、GKE、容器、集群、资源配额、伸缩、部署环境等基础设施话题。
 
-主题
+### 核心内容
 
-* container
 * cluster
+* namespace
+* node pool
 * autoscaling
-
-例句
-
-* The inference service runs on a GKE cluster.
-* We need to increase the number of nodes.
+* resource quota
+* service account
 
 ---
 
-# 7 DevOps / CI-CD（120句）
+## 7. DevOps / CI-CD（110句）
 
-涉及
+### 模块目标
 
-Jenkins
-Terraform
-Ansible
+让学习者能够说明构建、测试、部署、回滚、自动化配置与基础设施即代码。
 
-主题
+### 核心内容
 
-* pipeline
-* deployment
-* automation
-
-例句
-
-* The CI pipeline builds the container image.
-* Terraform manages the infrastructure.
+* CI pipeline
+* deployment stage
+* rollback
+* Terraform plan
+* Ansible playbook
+* Jenkins job
 
 ---
 
-# 8 Python / Data Processing（100句）
+## 8. Python / Data Processing（100句）
 
-主题
+### 模块目标
 
-* data processing
-* pipelines
-* automation
+让学习者能围绕 Python 脚本、数据清洗、批处理、日志、异常处理进行表达。
 
-例句
+### 核心内容
 
-* The pipeline is implemented in Python.
-* We process the documents before inference.
+* parsing
+* transformation
+* validation
+* batch processing
+* exception handling
+* refactoring
 
 ---
 
-# 9 OCR 项目（100句）
+## 9. OCR 项目（100句）
 
-主题
+### 模块目标
 
-* document processing
+让学习者能围绕文档识别、版面分析、字段抽取、模型优化、误差分析进行沟通。
+
+### 核心内容
+
+* scanned document
+* layout analysis
 * text extraction
-
-例句
-
-* The OCR model extracts text from scanned documents.
-* Accuracy improved after model tuning.
+* post-processing
+* accuracy
+* recall / precision
 
 ---
 
-# 10 LLM / AI 应用（100句）
+## 10. LLM / AI 应用（100句）
 
-主题
+### 模块目标
 
-* LLM
-* RAG
-* embeddings
+让学习者能够描述 LLM 接入、RAG 工作流、向量检索、提示词设计、风险控制。
 
-例句
+### 核心内容
 
-* We are integrating an LLM into the document workflow.
-* The system uses retrieval-augmented generation.
+* prompt
+* grounding
+* embedding
+* retrieval
+* hallucination
+* human review
 
 ---
 
-# 11 故障排查 / Incident Response（100句）
+## 11. 故障排查 / Incident Response（100句）
 
-主题
+### 模块目标
 
-* bug
+让学习者能在故障会议、值班场景、复盘讨论中清楚表达现状、影响、根因、修复进展。
+
+### 核心内容
+
 * outage
+* severity
 * root cause
-
-例句
-
-* The deployment failed due to a configuration issue.
-* We are investigating the root cause.
+* mitigation
+* workaround
+* postmortem
 
 ---
 
-# 12 跨团队沟通（80句）
+## 12. 跨团队沟通（80句）
 
-对象
+### 模块目标
 
-* product team
-* data team
-* risk team
+让学习者能与产品、风控、数据、平台、安全、运营团队高效对齐。
 
-例句
+### 核心内容
 
-* We need alignment with the product team.
-* The risk team requested additional validation.
+* alignment
+* dependency
+* priority
+* ownership
+* handoff
+* expectation
 
 ---
 
-# 13 银行技术合规 / Compliance（100句）
+## 13. 银行技术合规 / Compliance（100句）
 
-金融机构特有沟通。
+### 模块目标
 
-主题
+让学习者能够在银行环境中讨论数据隐私、权限、审计、模型风险、审批流程。
+
+### 核心内容
 
 * data privacy
-* security
-* audit
-
-例句
-
-* The system must comply with security policies.
-* All data access needs to be audited.
+* encryption
+* audit trail
+* access control
+* retention policy
+* model governance
 
 ---
 
-# 14 职场社交 / Small Talk（80句）
+## 14. 职场社交 / Small Talk（90句）
 
-场景
+### 模块目标
 
-* coffee chat
-* lunch conversation
+让学习者在 coffee chat、午餐交流、跨国团队轻社交中自然开口，不只会谈技术。
 
-例句
+### 核心内容
 
-* How’s your week going?
-* Are you working on anything interesting?
-
----
-
-# 15 项目总结 / 汇报（100句）
-
-场景
-
-* sprint review
-* project report
-
-例句
-
-* The project improved processing efficiency by 40%.
-* The model accuracy reached 95%.
+* opening small talk
+* remote work
+* work-life balance
+* travel
+* weekend plan
+* team culture
 
 ---
 
-# 结构统计
+## 15. 项目总结 / 汇报（100句）
 
-| 模块            | 句数  |
-| ------------- | --- |
-| 自我介绍          | 100 |
-| 面试            | 150 |
-| daily standup | 100 |
-| 技术会议          | 150 |
-| 数据平台          | 120 |
-| 云平台           | 120 |
-| DevOps        | 120 |
-| Python        | 100 |
-| OCR           | 100 |
-| LLM           | 100 |
-| 故障排查          | 100 |
-| 跨团队           | 80  |
-| 银行合规          | 100 |
-| small talk    | 80  |
-| 项目总结          | 100 |
+### 模块目标
 
-总计
+让学习者能做 sprint review、季度汇报、管理层总结、项目复盘与成果展示。
 
-**1500句**
+### 核心内容
+
+* outcome
+* impact
+* metric
+* risk
+* next step
+* lesson learned
 
 ---
 
-# 这个体系的特点
+## 六、成稿要求
 
-和普通英语教材不同：
+手册成稿阶段必须满足以下要求：
 
-1. **真实外企会议语言**
-2. **真实金融科技场景**
-3. **真实ML / DevOps沟通**
-
-覆盖
-
-* AI工程师
-* 数据工程师
-* MLOps工程师
-
-日常工作英语。
+* 每个模块句数与总表完全一致
+* 所有句子均为完整英文句子，避免只列短语
+* 表达优先贴近真实外企银行技术团队沟通
+* 尽量覆盖会议、面试、汇报、排障、合规等实际高频语境
+* 避免只写教科书式英语，强调真实可说出口的表达
+* 可直接用于跟读、替换、背诵、角色扮演
 
 ---
 
+## 七、版本迭代建议
 
+建议用 git 按以下节奏管理版本：
+
+* v0：原始大纲基线
+* v1：优化后的手册大纲
+* v2：完整 1500 句手册成稿
+
+后续如果继续迭代，可以扩展：
+
+* v3：增加中英对照
+* v4：增加面试答案模板
+* v5：增加按岗位拆分版本
+* v6：增加音频跟读脚本
